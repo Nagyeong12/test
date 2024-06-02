@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'circle';
+    src: url(icomoon.ttf);
+}
+
+input[type="password"] {font-family: 'circle';}
 body, ul, li {
     margin:0;
     padding:0;
