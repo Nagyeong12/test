@@ -1,6 +1,8 @@
 $(function(){
-
-    $('.label-text').text($(window).outerHeight())
+    $('input').on("focusin focusout",function(){
+        $('.label-text').text($(window).outerHeight())
+    })
+    
 
 $('.pages-wrap').scroll(function(){
 
