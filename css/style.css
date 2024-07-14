@@ -77,13 +77,13 @@ html[data-current-page-index="0"] .page-indicator {
 
 
 .page {
-    height:calc(100vh - 48px);
+    height:calc(100vh - 50px);
     border:2px solid red;
     box-sizing:border-box;
 }
 
 .page-2 {
-    height:150vh;
+    height:calc(100vh - 50px);
 }
 
 .page-3 {
