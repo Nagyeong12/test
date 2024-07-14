@@ -1,5 +1,7 @@
 $(function(){
 
+    $('.label-text').text($(window).outerHeight())
+
 $('.pages-wrap').scroll(function(){
 
     $('.page-indicator > ul > li > a').click(function(e) {
